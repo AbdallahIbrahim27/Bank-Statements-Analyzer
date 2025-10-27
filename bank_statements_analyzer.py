@@ -9,9 +9,9 @@ import tempfile
 # ---------------------------
 # Config
 # ---------------------------
-st.set_page_config(page_title="GlobalCorp & Ollin Group Bank Statement Analyzer", page_icon="🏦", layout="centered")
+st.set_page_config(page_title="Bank Statements Analyzer", page_icon="🏦", layout="centered")
 
-st.title("🏦GlobalCorp & Ollin Group Bank Statement Analyzer")
+st.title("🏦Bank Statements Analyzer")
 
 # ---------------------------
 # JSON extraction instruction
@@ -89,3 +89,4 @@ if uploaded_file is not None:
             finally:
                 if os.path.exists(temp_path):
                     os.remove(temp_path)
+
