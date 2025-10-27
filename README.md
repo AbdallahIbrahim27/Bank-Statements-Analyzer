@@ -67,5 +67,5 @@ If extraction returns malformed JSON, the app shows raw model output.
 
 Statements with low scan quality may reduce accuracy.
 
-
+## Made with ❤️ by Abdallah Ibrahim
 
